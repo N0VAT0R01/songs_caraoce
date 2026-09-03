@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Спето в КнАГУ — подборка песен для общего пения">
+  <title>Спето в КнАГУ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-mark">♫</div>
+        <div>
+          <div class="brand-title">Спето в КнАГУ</div>
+          <div class="brand-subtitle">Песни КнАГУ</div>
+        </div>
+      </div>
+      <div class="side-card">
+        <div class="side-label">В подборке</div>
+        <div class="side-number">22</div>
+        <div class="side-text">песни</div>
+      </div>
+      <div class="tip">
+        <strong>Совет</strong>
+        <span>Выберите песню справа или воспользуйтесь поиском.</span>
+      </div>
+    </aside>
+
+    <main class="content">
+      <div class="header-poster">
+        <img src="speto-v-knagu.jpg" alt="Спето в КнАГУ — 10 сентября, 18:00–19:30, сквер КнАГУ">
+      </div>
+
+      <header class="hero">
+        <div class="hero-kicker">Музыкальная подборка</div>
+        <h1>Спето в КнАГУ</h1>
+        <p>Выберите песню и пойте вместе с нами на КнАГУ. Поиск работает по названию и исполнителю.</p>
+        <label class="search-wrap" aria-label="Поиск песни">
+          <span class="search-icon">⌕</span>
+          <input id="search" type="search" placeholder="Найти песню или исполнителя" autocomplete="off">
+          <button id="clearSearch" class="clear-btn" type="button" aria-label="Очистить поиск">×</button>
+        </label>
+      </header>
+
+      <section class="songs-panel">
+        <div class="panel-head">
+          <div>
+            <div class="panel-title">Список песен</div>
+            <div id="resultCount" class="panel-meta">22 песни</div>
+          </div>
+          <button id="expandAll" class="ghost-btn" type="button">Раскрыть все</button>
+        </div>
+        <div id="songs" class="song-list"></div>
+        <div id="emptyState" class="empty" hidden>
+          <div class="empty-icon">♪</div>
+          <h2>Ничего не найдено</h2>
+          <p>Попробуйте изменить название песни или исполнителя.</p>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <span>Сайт готов для публикации на GitHub Pages</span>
+        <span>•</span>
+        <span>Тексты добавляются в <code>songs.js</code></span>
+      </footer>
+    </main>
+  </div>
+
+  <script src="songs.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
