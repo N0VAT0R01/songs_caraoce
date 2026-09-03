@@ -16,7 +16,7 @@ const songs = [
   { title: 'Седая ночь', artist: 'Юрий Шатунов', lyrics: '', chorus: '' },
   { title: 'Знаешь ли ты', artist: 'МакSим', lyrics: '', chorus: '' },
   { title: 'Трава у дома', artist: 'Земляне', lyrics: '', chorus: '' },
-  { title: 'Комсомольск-на-Амуре', artist: 'Штурм', lyrics: '', chorus: '' },
+  { title: 'Комсомольск-на-Амуре', artist: 'Наталья Штурм', lyrics: '', chorus: '' },
   { title: 'Осень', artist: 'ДДТ', lyrics: '', chorus: '' },
   { title: 'Зеленоглазое такси', artist: 'Михаил Боярский', lyrics: '', chorus: '' },
   { title: 'Твори добро', artist: 'Шура', lyrics: '', chorus: '' },
